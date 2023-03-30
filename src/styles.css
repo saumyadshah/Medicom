@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-input{
+    padding: 12px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #047BD5;
+    margin-top: 12px;
+}
+
+.btn-primary{
+    padding: 12px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #047BD5;
+    color: white;
+    margin-top: 12px;
+    cursor: pointer;
+   
+    transition: .3s;
+}
+
+.btn-primary:hover{
+    background: #F7A200;
+    color: black;
+}
+
+.auth-heading{
+    text-align: center;
+    font-size: 24px;
+    color: #047BD5;
+}
